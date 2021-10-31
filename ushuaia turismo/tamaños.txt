@@ -1,0 +1,9 @@
+
+
+h1=6rem, fuente de google.
+
+h2= 3.2rem, misma fuente de h1
+
+p = 2rem , sans-serif;
+
+

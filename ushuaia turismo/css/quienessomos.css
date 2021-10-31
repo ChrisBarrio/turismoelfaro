@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    background-color: #889EAF;
+    
+
+}
+
+img {
+    display: flex;
+    max-width: 30%;
+   margin-left: 35%;
+    
+}
+
+h1 {
+    display: flex;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin: auto;
+}
+
+@media (min-width:992px) {
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+
+
+
+section article p {
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.5;
+   
+}
+
+.contenedor {
+
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+    
+    
+}
+#portada{
+    display: flex;
+    flex-direction: row;
+    background-image: url(https://madryn.org/wp-content/uploads/2017/02/ushuaia.jpg);
+    padding-bottom: 300px;
+    border-radius: 10px;
+    background-position-x: center;
+   
+}
+.entrada-blog a {
+    display: flex;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+/*footer{
+       
+        
+}*/
+    
+@media screen and (max-width: 1280px) {
+    body {
+    background-color: #889EAF;
+} 
+    
+}
+@media screen and (max-width: 800px) {
+    body{
+        background-color:  rgb(66, 160, 105);
+    }
+    
+}
+
+#internal-follow .social-circle {
+    color: #666;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    padding-top: 5px;
+    margin-left: 0;
+    margin-right: 6px;
+    margin-top: 6px;
+    
+}
+.social-circle {
+    border-radius: 40px;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 13px;
+    margin-left: 10px;
+}
+
